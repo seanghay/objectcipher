@@ -3,14 +3,14 @@ An efficient encryption for JSON binary.
 ## Install
 
 ```shell
-npm install jsoncipher
+npm install objectcipher
 ```
 
 ## Usage
 
 ```typescript
 import fs from 'node:fs/promises'
-import { encrypt, decrypt } from 'jsoncipher'
+import { encrypt, decrypt } from 'objectcipher'
 
 // encrypt
 const pass = "husky"
