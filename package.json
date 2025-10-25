@@ -1,6 +1,6 @@
 {
 	"name": "objectcipher",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"license": "MIT",
 	"type": "module",
 	"author": {
@@ -9,7 +9,9 @@
 		"url": "https://github.com/seanghay"
 	},
 	"repository": "seanghay/objectcipher",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
