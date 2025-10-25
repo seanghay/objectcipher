@@ -20,7 +20,8 @@
 	"scripts": {
 		"build": "tsdown",
 		"dev": "tsdown --watch",
-		"test": "vitest --run"
+		"test": "vitest --run",
+		"prepublishOnly": "tsdown"
 	},
 	"devDependencies": {
 		"@types/node": "^24.9.1",

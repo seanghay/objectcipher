@@ -1,3 +1,3 @@
 import { defineConfig } from "tsdown";
 
-export default defineConfig({});
+export default defineConfig({ minify: true });
